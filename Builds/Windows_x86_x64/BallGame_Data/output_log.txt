@@ -4,7 +4,7 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
     Vendor:   Intel
-    VRAM:     2111 MB
+    VRAM:     4196 MB
 Begin MonoManager ReloadAssembly
 Platform assembly: F:\GIT\GameCraft\BallGame\Builds\Windows_x86_x64\BallGame_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading F:\GIT\GameCraft\BallGame\Builds\Windows_x86_x64\BallGame_Data\Managed\UnityEngine.dll into Unity Child Domain
@@ -14,91 +14,185 @@ Platform assembly: F:\GIT\GameCraft\BallGame\Builds\Windows_x86_x64\BallGame_Dat
 Loading F:\GIT\GameCraft\BallGame\Builds\Windows_x86_x64\BallGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: F:\GIT\GameCraft\BallGame\Builds\Windows_x86_x64\BallGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading F:\GIT\GameCraft\BallGame\Builds\Windows_x86_x64\BallGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.142 seconds
+- Completed reload, in  0.047 seconds
 Platform assembly: F:\GIT\GameCraft\BallGame\Builds\Windows_x86_x64\BallGame_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: F:\GIT\GameCraft\BallGame\Builds\Windows_x86_x64\BallGame_Data\Managed\System.dll (this message is harmless)
 desktop: 1280x720 60Hz; virtual: 1280x720 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.853726 ms
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
+UnloadTime: 0.896393 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 40c -> priority: 1 
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-Prick Encountered
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
+  Thread -> id: 12ec -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.672475 ms
+UnloadTime: 4.795251 ms
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 174.
-Total: 0.297480 ms (FindLiveObjects: 0.011851 ms CreateObjectMapping: 0.013827 ms MarkObjects: 0.140641 ms  DeleteObjects: 0.130370 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 243.
+Total: 0.254814 ms (FindLiveObjects: 0.035555 ms CreateObjectMapping: 0.021333 ms MarkObjects: 0.170271 ms  DeleteObjects: 0.009481 ms)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.215207 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 201.
+Total: 0.317629 ms (FindLiveObjects: 0.016592 ms CreateObjectMapping: 0.007901 ms MarkObjects: 0.206616 ms  DeleteObjects: 0.085728 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.801974 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 207.
+Total: 0.351209 ms (FindLiveObjects: 0.028839 ms CreateObjectMapping: 0.014617 ms MarkObjects: 0.298666 ms  DeleteObjects: 0.008296 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.594962 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 244.
+Total: 0.213332 ms (FindLiveObjects: 0.020148 ms CreateObjectMapping: 0.008691 ms MarkObjects: 0.169481 ms  DeleteObjects: 0.015012 ms)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.415898 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 191.
+Total: 0.312493 ms (FindLiveObjects: 0.033185 ms CreateObjectMapping: 0.008296 ms MarkObjects: 0.194370 ms  DeleteObjects: 0.076246 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.607603 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 207.
+Total: 0.351999 ms (FindLiveObjects: 0.031604 ms CreateObjectMapping: 0.019357 ms MarkObjects: 0.292740 ms  DeleteObjects: 0.007111 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.378073 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 244.
+Total: 0.201876 ms (FindLiveObjects: 0.019753 ms CreateObjectMapping: 0.020938 ms MarkObjects: 0.151703 ms  DeleteObjects: 0.008691 ms)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Prick Encountered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.159899 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 201.
+Total: 0.303011 ms (FindLiveObjects: 0.017777 ms CreateObjectMapping: 0.008296 ms MarkObjects: 0.186468 ms  DeleteObjects: 0.089283 ms)
 
