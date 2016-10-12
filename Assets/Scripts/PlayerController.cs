@@ -7,12 +7,16 @@ public class PlayerController : MonoBehaviour {
 
 	private Rigidbody rb;
 	public float Speed;
+	public float MaxHealth;
+	public float DamageAmt;
 	private int coinCount;
+	private float curHealth;
 	public Text Coins;
 	public int MaxCoins;
 	public int numPricks;
 	public GameObject prick;
 	public GameObject coinObj;
+	public GameObject healthBar;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +25,7 @@ public class PlayerController : MonoBehaviour {
 		setCoinText ();
 		spawnPricks ();
 		spawnCoins ();
+		curHealth = MaxHealth;
 
 	}
 	
@@ -53,17 +58,23 @@ public class PlayerController : MonoBehaviour {
 	void OnCollisionEnter(Collision other) {
 		if(other.gameObject.CompareTag("Prick")){
 			print ("Prick Encountered");
+			if (curHealth - DamageAmt > 0) {
+				float decreasedH = (curHealth - DamageAmt) / MaxHealth;
+				curHealth -= DamageAmt;
+				healthBar.transform.localScale = new Vector3 (decreasedH, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
+			} 
+			else {
+				healthBar.transform.localScale = new Vector3(0, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
+				SceneManager.LoadScene ("GameOver");
+			}
+
 		}
 	}
 
 	void setCoinText(){
 		Coins.text = "Coins : " + coinCount.ToString ();
 	}
-
-	void resetPricks(){
 		
-	}
-
 	void spawnPricks(){
 		float minPos = -250;
 		float maxPos = 250;
@@ -87,4 +98,5 @@ public class PlayerController : MonoBehaviour {
 
 		}
 	}
+		
 }
