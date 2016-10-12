@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour {
 	public GameObject prick;
 	public GameObject coinObj;
 	public GameObject healthBar;
+	public AudioClip clip;
 
 	// Use this for initialization
 	void Start () {
@@ -26,7 +27,6 @@ public class PlayerController : MonoBehaviour {
 		spawnPricks ();
 		spawnCoins ();
 		curHealth = MaxHealth;
-
 	}
 	
 	// Update is called once per frame
@@ -48,7 +48,8 @@ public class PlayerController : MonoBehaviour {
 			other.gameObject.SetActive (false);
 			coinCount += 1;
 			setCoinText ();
-
+			AudioSource audo = GetComponent<AudioSource> ();
+			audo.Play ();
 			if (coinCount >= MaxCoins) {
 				SceneManager.LoadScene ("GameWon");
 			}
@@ -56,17 +57,21 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision other) {
-		if(other.gameObject.CompareTag("Prick")){
+		if (other.gameObject.CompareTag ("Prick")) {
 			if (curHealth - DamageAmt > 0) {
 				float decreasedH = (curHealth - DamageAmt) / MaxHealth;
 				curHealth -= DamageAmt;
 				healthBar.transform.localScale = new Vector3 (decreasedH, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
-			} 
-			else {
-				healthBar.transform.localScale = new Vector3(0, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
+				AudioSource aud = other.gameObject.GetComponent<AudioSource> ();
+				aud.Play ();
+			} else {
+				healthBar.transform.localScale = new Vector3 (0, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
 				SceneManager.LoadScene ("GameOver");
 			}
-
+		}
+		else {
+			AudioSource a = GetComponent<AudioSource> ();
+			a.PlayOneShot (clip);
 		}
 	}
 
